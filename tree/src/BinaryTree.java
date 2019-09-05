@@ -212,7 +212,6 @@ public class BinaryTree {
         if(node == null) {
             return;
         }
-
         iterateLastOrder(node.getLeftNode());
         iterateLastOrder(node.getRightNode());
         operate(node);
